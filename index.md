@@ -18,7 +18,7 @@ description: Exploring reality through science, philosophy, and literature.
 
 <section class="section">
   <p class="eyebrow">Featured Essay</p>
-  {% assign featured = site.posts | first %}
+  {% assign featured = site.posts | where: "title", "Why Do We Need Philosophy?" | first %}
   {% if featured %}{% include post-card.html post=featured %}{% endif %}
 </section>
 

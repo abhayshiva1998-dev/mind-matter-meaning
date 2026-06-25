@@ -11,6 +11,7 @@ permalink: /books/
     <article class="post-card">
       <h3>{{ book.title }}</h3>
       <p><strong>{{ book.author }}</strong></p>
+      {% if book.category %}<p><strong>Category:</strong> {{ book.category }}</p>{% endif %}
       <p>{{ book.summary }}</p>
       <p><strong>Difficulty:</strong> {{ book.difficulty }}</p>
       <p><strong>Recommended for:</strong> {{ book.recommended_for }}</p>

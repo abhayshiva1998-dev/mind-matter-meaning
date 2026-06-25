@@ -21,6 +21,43 @@ philosophy:
     summary: A compact entry into knowledge, perception, universals, and philosophical method.
     difficulty: Beginner
     recommended_for: New readers of analytic philosophy.
+  - title: "Philosophy: Who Needs It"
+    author: Ayn Rand
+    category: Philosophy
+    summary: A collection of essays on the practical role of philosophical ideas in reason, values, judgment, and human life.
+    difficulty: Intermediate
+    recommended_for: Readers interested in rationality, epistemology, ethics, and the role of philosophy in life.
+  - title: Introduction to Objectivist Epistemology
+    author: Ayn Rand
+    category: Philosophy / Epistemology
+    summary: A technical discussion of concept formation, abstraction, definitions, and the theory of knowledge in Objectivist philosophy.
+    difficulty: Advanced
+    recommended_for: Readers interested in concepts, abstraction, knowledge, and Objectivist epistemology.
+  - title: The Awakening of Intelligence
+    author: J. Krishnamurti
+    category: Philosophy / Consciousness
+    summary: Dialogues and reflections on attention, conditioning, self-knowledge, intelligence, and the possibility of inner freedom.
+    difficulty: Intermediate
+    recommended_for: Readers interested in self-inquiry, intelligence, attention, conditioning, and freedom.
+indian_philosophy:
+  - title: Jnana Yoga
+    author: Swami Vivekananda
+    category: Indian Philosophy
+    summary: A philosophical exposition of the path of knowledge in Vedanta, focused on self-inquiry, reason, and realization.
+    difficulty: Intermediate
+    recommended_for: Readers interested in knowledge, Vedanta, self-inquiry, and the philosophical path to realization.
+  - title: Bhakti Yoga
+    author: Swami Vivekananda
+    category: Indian Philosophy
+    summary: A study of devotion, love, spiritual discipline, and the emotional dimension of religious life in Indian thought.
+    difficulty: Beginner to Intermediate
+    recommended_for: Readers interested in devotion, love, spiritual practice, and Indian philosophical traditions.
+  - title: Religion of Love
+    author: Swami Vivekananda
+    category: Indian Philosophy / Spiritual Philosophy
+    summary: Reflections on love, devotion, religion, ethics, and spiritual humanism in a concise and accessible form.
+    difficulty: Beginner
+    recommended_for: Readers interested in love, devotion, religion, ethics, and spiritual humanism.
 literature:
   - title: Mimesis
     author: Erich Auerbach
