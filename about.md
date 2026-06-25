@@ -1,8 +1,27 @@
 ---
 title: About
-subtitle: A long-term library for disciplined curiosity.
+subtitle: A personal academic knowledge platform for disciplined inquiry.
 permalink: /about/
 ---
-Mind Matter Meaning is an academic website for essays, research notes, reading lists, and book reviews across philosophy, physics, mathematics, literature, artificial intelligence, logic, and the history of science.
+I am Abhay Pandey, a PhD researcher in Physics. My interests extend across philosophy, science, literature, knowledge, reality, consciousness, meaning, and critical thinking.
 
-The site is intentionally static: Markdown source files become durable webpages through Jekyll and GitHub Pages. This keeps the archive portable, searchable, fast, and easy to maintain.
+Mind • Matter • Meaning is my personal academic knowledge platform. I use it to collect essays, reflections, reading notes, research notes, and interdisciplinary thinking. The site is meant to be a durable place for careful thought rather than a place for quick conclusions.
+
+## Purpose of This Website
+
+The purpose of this website is to develop and preserve a serious record of learning. It gives me a structured space to think through questions that connect physics, philosophy, literature, and the wider problem of how human beings understand reality.
+
+I want the writing here to remain clear, modest, and revisable. Some pages may be polished essays, while others may remain notes, outlines, or early reflections. In each case, the aim is careful inquiry.
+
+## What I Write About
+
+- Physics
+- Philosophy of science
+- Literature
+- Mathematics
+- History of science
+- Consciousness
+- Meaning
+- Books and reading notes
+
+This website reflects an ongoing learning process. Corrections, suggestions, and thoughtful discussion are welcome.

@@ -8,6 +8,7 @@ description: Exploring reality through science, philosophy, and literature.
     <p class="eyebrow">Permanent academic knowledge platform</p>
     <h1>Mind • Matter • Meaning</h1>
     <p>Exploring reality through science, philosophy, literature, mathematics, artificial intelligence, logic, and the history of ideas.</p>
+    <p class="hero-byline">By Abhay Pandey</p>
     <div class="hero-actions">
       <a class="button" href="{{ '/archive/' | relative_url }}">Browse Archive</a>
       <a class="button secondary" href="{{ '/search/' | relative_url }}">Search Essays</a>

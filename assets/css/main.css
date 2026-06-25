@@ -112,6 +112,11 @@ main { min-height: 65vh; }
   padding: 5rem 1.25rem 4rem;
 }
 .hero p { max-width: 780px; font-size: 1.18rem; color: var(--muted); }
+.hero-byline {
+  margin-top: 1rem;
+  color: var(--primary);
+  font-weight: 700;
+}
 .hero-actions { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 2rem; }
 .button {
   display: inline-flex;
