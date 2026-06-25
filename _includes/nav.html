@@ -1,0 +1,17 @@
+<header class="site-header">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress" id="reading-progress"></div>
+  <nav class="nav" aria-label="Primary navigation">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-title">Mind • Matter • Meaning</span>
+      <span class="brand-subtitle">Science, philosophy, literature</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <div class="nav-links" id="nav-links">
+      {% for item in site.data.navigation %}
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% endfor %}
+      <button class="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle color theme">◐</button>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,47 @@
+physics:
+  - title: The Character of Physical Law
+    author: Richard P. Feynman
+    summary: A lucid introduction to conservation laws, symmetry, probability, and the style of physical explanation.
+    difficulty: Beginner
+    recommended_for: Readers entering theoretical physics through clear conceptual lectures.
+  - title: The Road to Reality
+    author: Roger Penrose
+    summary: A broad mathematical tour of modern physics from geometry to quantum theory.
+    difficulty: Advanced
+    recommended_for: Readers comfortable with sustained mathematical argument.
+mathematics:
+  - title: Mathematics and Its History
+    author: John Stillwell
+    summary: A historical route through mathematical ideas that keeps proof and context together.
+    difficulty: Intermediate
+    recommended_for: Students who want structure behind mathematical development.
+philosophy:
+  - title: Problems of Philosophy
+    author: Bertrand Russell
+    summary: A compact entry into knowledge, perception, universals, and philosophical method.
+    difficulty: Beginner
+    recommended_for: New readers of analytic philosophy.
+literature:
+  - title: Mimesis
+    author: Erich Auerbach
+    summary: A landmark study of realism and representation in Western literature.
+    difficulty: Advanced
+    recommended_for: Readers interested in form, history, and interpretation.
+artificial_intelligence:
+  - title: Artificial Intelligence
+    author: Stuart Russell and Peter Norvig
+    summary: A standard technical introduction to search, reasoning, learning, and intelligent agents.
+    difficulty: Intermediate
+    recommended_for: Students building a durable foundation in AI.
+history:
+  - title: The Structure of Scientific Revolutions
+    author: Thomas S. Kuhn
+    summary: A major account of paradigms, normal science, and conceptual change.
+    difficulty: Intermediate
+    recommended_for: Readers studying scientific change and method.
+psychology:
+  - title: Thinking, Fast and Slow
+    author: Daniel Kahneman
+    summary: A survey of judgment, bias, and decision-making from cognitive psychology.
+    difficulty: Beginner
+    recommended_for: Readers connecting psychology with critical thinking.

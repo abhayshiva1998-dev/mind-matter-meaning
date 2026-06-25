@@ -1,0 +1,14 @@
+{% assign related = site.posts | where_exp: "post", "post.url != page.url" %}
+{% assign shown = 0 %}
+{% for post in related %}
+  {% assign shared = false %}
+  {% for tag in page.tags %}
+    {% if post.tags contains tag %}{% assign shared = true %}{% endif %}
+  {% endfor %}
+  {% if shared and shown < 3 %}
+    {% if shown == 0 %}<section class="related"><h2>Related Articles</h2><div class="card-grid">{% endif %}
+    {% include post-card.html post=post %}
+    {% assign shown = shown | plus: 1 %}
+  {% endif %}
+{% endfor %}
+{% if shown > 0 %}</div></section>{% endif %}

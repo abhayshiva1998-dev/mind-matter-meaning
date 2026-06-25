@@ -1,0 +1,80 @@
+title: Mind • Matter • Meaning
+tagline: Exploring Reality Through Science, Philosophy, and Literature
+description: A permanent academic knowledge platform for philosophy, physics, mathematics, science, literature, artificial intelligence, logic, and critical thinking.
+url: "https://abhayshiva1998-dev.github.io"
+baseurl: "/mind-matter-meaning"
+lang: en
+timezone: Asia/Kolkata
+author:
+  name: Mind Matter Meaning
+  email: contact@example.com
+
+markdown: kramdown
+highlighter: rouge
+permalink: /essays/:year/:month/:day/:title/
+future: false
+
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+collections:
+  categories:
+    output: true
+    permalink: /categories/:name/
+  tags:
+    output: true
+    permalink: /tags/:name/
+  research_notes:
+    output: true
+    permalink: /research-notes/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Mind Matter Meaning
+      license: CC BY-NC-SA 4.0
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: categories
+    values:
+      layout: category
+  - scope:
+      path: ""
+      type: tags
+    values:
+      layout: tag
+  - scope:
+      path: ""
+      type: research_notes
+    values:
+      layout: post
+      category: research-notes
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts
+  - vendor
+
+feed:
+  posts_limit: 20
+
+social:
+  name: Mind Matter Meaning
+  links: []

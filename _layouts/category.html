@@ -1,0 +1,12 @@
+---
+layout: page
+---
+{{ content }}
+{% assign posts = site.posts | where_exp: "post", "post.categories contains page.slug" %}
+<div class="card-grid">
+  {% for post in posts %}
+    {% include post-card.html post=post %}
+  {% else %}
+    <p>No articles have been filed here yet.</p>
+  {% endfor %}
+</div>
