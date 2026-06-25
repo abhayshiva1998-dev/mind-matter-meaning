@@ -4,10 +4,10 @@ subtitle: Articles grouped by discipline.
 permalink: /categories/
 ---
 {% for category in site.categories %}
-<section id="{{ category[0] }}">
-  <h2>{{ category[0] | capitalize }}</h2>
+<section id="{{ category.first }}">
+  <h2>{{ category.first | capitalize }}</h2>
   <div class="card-grid">
-  {% for post in category[1] %}
+  {% for post in category.last %}
     {% include post-card.html post=post %}
   {% endfor %}
   </div>

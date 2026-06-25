@@ -5,9 +5,9 @@ permalink: /books/
 ---
 {% for group in site.data.books %}
 <section class="book-section">
-  <h2>{{ group[0] | replace: "_", " " | capitalize }}</h2>
+  <h2>{{ group.first | replace: "_", " " | capitalize }}</h2>
   <div class="card-grid">
-  {% for book in group[1] %}
+  {% for book in group.last %}
     <article class="post-card">
       <h3>{{ book.title }}</h3>
       <p><strong>{{ book.author }}</strong></p>

@@ -13,10 +13,10 @@ permalink: /archive/
 
 ## Categories
 {% for category in site.categories %}
-- [{{ category[0] | capitalize }}]({{ '/categories/#' | append: category[0] | relative_url }}) ({{ category[1].size }})
+- [{{ category.first | capitalize }}]({{ '/categories/#' | append: category.first | relative_url }}) ({{ category.last.size }})
 {% endfor %}
 
 ## Tags
 {% for tag in site.tags %}
-- [{{ tag[0] }}]({{ '/tags/#' | append: tag[0] | relative_url }}) ({{ tag[1].size }})
+- [{{ tag.first }}]({{ '/tags/#' | append: tag.first | relative_url }}) ({{ tag.last.size }})
 {% endfor %}
