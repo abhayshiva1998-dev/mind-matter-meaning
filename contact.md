@@ -11,7 +11,3 @@ permalink: /contact/
 
 - Google Scholar: [https://scholar.google.com/citations?user=q4js4xsAAAAJ&hl=en](https://scholar.google.com/citations?user=q4js4xsAAAAJ&hl=en)
 - ORCID: [https://orcid.org/0009-0002-0261-4375](https://orcid.org/0009-0002-0261-4375)
-
-
-
-For corrections, please include the page URL, the relevant paragraph, and any source or reasoning that supports the suggested change.
